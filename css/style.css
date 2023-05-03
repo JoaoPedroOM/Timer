@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+  background: url('../img/bg-stars.svg');
+  background-color: hsl(235, 16%, 14%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cel{
+  display: none;
+}
+h1{
+  font-family: 'Red Hat Text', sans-serif;
+  color: white;
+}
+.timer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20rem;
+  width: 70rem;
+  margin-bottom: 5rem;
+}
+
+.timer div{
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red Hat Text', sans-serif;
+  background-image: linear-gradient(to bottom, #161722, #161722, #161722, #161722, #161722, #1c1d2a, #222433, #292a3c, #383951, #484967, #585a7e, #696b96);
+  box-shadow: 5px 5px 15px rgba(0,0,0,.7);
+  border-radius: 7px;
+  color: hsl(345, 95%, 68%);
+}
+.timer span{
+  font-weight: bold;
+  font-size: 6rem
+}
+.timer span.tempo{
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+}
+
+.opcoes ul{
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: 'Red Hat Text', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+.opcoes ul li{
+ 
+  background: #243949; background: -moz-linear-gradient(to bottom,  #243949 0%,#517fa4 100%); background: -webkit-linear-gradient(to bottom,  #243949 0%,#517fa4 100%); background: linear-gradient(to bottom,  #243949 0%,#517fa4 100%);
+
+  border-radius: 20px;
+  background-size: 100% auto;
+  padding: 0.6em 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@media(max-width:450px){
+  .timer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    height: 35rem;
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  h1{
+    font-size: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .opcoes ul{
+    gap: 2rem;
+  }
+}
