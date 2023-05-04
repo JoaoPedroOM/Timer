@@ -6,6 +6,15 @@
   <a href="#-contribuições">Contribuições</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
+
+## 🎥 Demo
+  O projeto está no ar e para acessá-lo basta [clicar aqui](https://todolistjs-alpha.vercel.app/).
+  
+  <div align="center">
+    <img src="/demo/demo.gif" width="850" heigth="auto" hspace="20" vspace="20"/> 
+</div>
+
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
