@@ -85,7 +85,7 @@ h1{
   background-position: right center;
   background-size: 200% auto;
  -webkit-animation: pulse 2s infinite;
- animation: pulse512 1.5s infinite;
+  animation: pulse512 1.5s infinite;
 }
 
 @keyframes pulse512 {
@@ -102,6 +102,54 @@ h1{
   }
  }
 
+ input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  position: relative;
+}
+.input_infos{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+.input_infos{
+  margin-bottom: 2rem;
+}
+label{
+  font-size: 1.6rem;
+  color: white;
+  font-family: 'Red Hat Text', sans-serif;
+}
+input[type="date"] {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 1.3rem;
+  font-family: 'Red Hat Text', sans-serif;
+  padding: 8px;
+}
+input[type="date"]:hover{
+  cursor: pointer;
+}
+
+input[type="date"]:focus {
+  outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(22%) sepia(66%) saturate(5617%) hue-rotate(192deg) brightness(90%) contrast(102%);
+}
+
+
 @media(max-width:450px){
   .timer{
     display: grid;
@@ -112,10 +160,19 @@ h1{
     margin-bottom: 4rem;
   }
   h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 4rem;
   }
   .opcoes ul{
     gap: 2rem;
   }
+}
+
+@media(max-width:360px){
+
+  h1{
+    font-size: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
 }

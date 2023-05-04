@@ -9,6 +9,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="./img/icons8-fita-de-bookmark-16.png"/>
 	<title>Timer</title>
 
   <script src="./js/script.js" defer></script>
@@ -16,8 +17,13 @@
 <body>
 	
   <main>
-    
-    <h1>Contagem Regressiva</h1>
+    <div class="input_infos">
+      <label for="data">Selecione uma data:</label>
+      <input type="date" id="data">
+    </div>
+
+
+    <h1 id="contagem">Contagem Regressiva</h1>
     <div class="timer">
       
       <div>
