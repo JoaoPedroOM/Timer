@@ -40,7 +40,7 @@ dataInput.addEventListener("change", function(event) {
   contagemInfo.innerHTML = `Contagem regressiva`;
   event.preventDefault(); // evita que a página recarregue
 
-  const selectedDate = new Date(event.target.value);
+  const selectedDate = new Date(dataInput.value);
 
   clearInterval(intervalId); // interrompe a execução do intervalo anterior
   intervalId = setInterval(function() {
