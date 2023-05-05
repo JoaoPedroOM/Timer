@@ -148,6 +148,24 @@ input[type="date"]:focus {
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(22%) sepia(66%) saturate(5617%) hue-rotate(192deg) brightness(90%) contrast(102%);
 }
+@media(max-width:480px){
+  .timer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    height: 35rem;
+    width: 20rem;
+    margin-bottom: 4rem;
+  }
+  h1{
+    font-size: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+  .opcoes ul{
+    gap: 2rem;
+  }
+}
 
 @media(max-width:450px){
   .timer{
