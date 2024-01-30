@@ -9,8 +9,8 @@ const Natal = document.getElementById("newNatal");
 const contagemInfo = document.getElementById("contagem")
 
 
-const newYear = "1 jan 2024";
-const newNatal = "25 dec 2023";
+const newYear = "1 jan 2025";
+const newNatal = "25 dec 2024";
 
 let intervalId; // variável para armazenar o ID do intervalo
 
