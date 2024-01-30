@@ -8,7 +8,7 @@
 
 
 ## 🎥 Demo
-  O projeto está no ar e para acessá-lo basta [clicar aqui](https://contagem-nine.vercel.app/).
+  O projeto está no ar e para acessá-lo basta [clicar aqui](https://timer-gamma-vert.vercel.app/).
   
   <div align="center">
     <img src="/demo/demo.gif" width="850" heigth="auto" hspace="20" vspace="20"/> 
